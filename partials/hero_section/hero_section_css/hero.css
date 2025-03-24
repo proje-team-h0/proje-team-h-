@@ -2,12 +2,16 @@
 .hero-section{
     display: flex;
     gap: 130px;
-    width: 1240px;
+    width: 1280px;
     height: 600px;
+    background-color: #1D1D1D;
+    border-radius: 3%;
+    margin-left: 100px;
 }
 .hero-img{
     margin-top: 80px;
-    margin-right: 100px;
+    margin-right: 50px;
+    margin-left: 40px;
 }
 .h1{
     width: 563px;
@@ -52,6 +56,7 @@
     align-items: center;
     margin-left: 50px;
     margin-top: 136px;
+    
 }
 .images{
   list-style: none;
@@ -66,6 +71,7 @@
     height: 56px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .users-img{
     border-radius: 100px;
@@ -122,6 +128,7 @@
     justify-content: center;
     align-items: center;
     margin-left:40px;
+    margin-bottom: 50px;
 }
 .rec{
     width: 50px;
