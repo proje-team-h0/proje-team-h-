@@ -11,6 +11,7 @@ body{
     margin: 20px 100px 80px 100px;
     width:1240px;
     height: 60px;
+    justify-content: center;
 }
 .header-div{
     display: flex;
@@ -43,16 +44,20 @@ body{
   color: #FFFFFF;
   
 }
-.header.btn{
+.header-btn{
     width: 238px;
     height: 60px;
     border: 1px solid #FFFFFF;
     border-radius: 12px;
     padding: 16px 84px;
-    margin-top: 20px;
     margin-bottom: 80px;
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
+    color: #121212;
+    cursor: pointer; /* Üzerine gelince el işareti çıksın */
+}
+.header-btn:hover{
+    background-color: white;
     color: #121212;
 }
