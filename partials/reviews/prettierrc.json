@@ -1,0 +1,38 @@
+{
+    "tabWidth": 1,
+    "useTabs": true,
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "vueIndentScriptAndStyle": false,
+    "cursorOffset": -1,
+    "embeddedLanguageFormatting": "auto",
+    "filepath": "",
+    "rangeStart": 1,
+    "rangeEnd": 122,
+    "singleAttributePerLine": false,
+    "overrides": [
+      {
+        "files": ".prettierrc",
+        "options": {
+          "parser": "json"
+        }
+      }
+    ],
+    "parser": "babel",
+    "plugins": [
+      "prettier-plugin-svelte"
+    ]
+  }
