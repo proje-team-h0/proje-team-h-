@@ -21,7 +21,7 @@
     font-weight: 500;
     font-size: 64px;
     line-height: 68px;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     margin-left: 50px;
     margin-top: 80px;
 }
@@ -31,7 +31,7 @@
     font-style: italic;
     font-size: 64px;
     line-height: 68px;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
 }
 .hero-text{
     width: 418px;
@@ -41,7 +41,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -154,7 +154,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: -0.04m;
+    letter-spacing: 0.04m;
     color: transparent #FFFFFF;
 }
 .rec-p{
@@ -163,5 +163,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
 }
+

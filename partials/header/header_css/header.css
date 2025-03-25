@@ -56,8 +56,9 @@ body{
     line-height: 28px;
     color: #121212;
     cursor: pointer; /* Üzerine gelince el işareti çıksın */
+    text-transform: uppercase;
 }
 .header-btn:hover{
     background-color: white;
-    color: #121212;
+    color: #1d1d1d;
 }
