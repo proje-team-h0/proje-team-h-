@@ -214,6 +214,9 @@ body{
 .vector-svg {
     display: block; /* SVG'yi blok element yap */
     margin: 0 auto; /* Otomatik margin ile ekstra ortala */
+    fill: #BEA69E;/*Sembolün rengini belirler*/
+   stroke: #121212;/*Sembolün kenarlık rengini belirler*/
+   stroke-width: 1.5px;/*Sembolün kenerlık kalınlığını belirler*/
 }
 .rec-text{
     display: block;
