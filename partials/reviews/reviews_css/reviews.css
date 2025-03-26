@@ -1,7 +1,105 @@
-/* =================== REVIEWS SECTION =================== */
-.section-title{
-    color: red;
-}
-.reviews-section {
+.reviews_section {
+    padding: 80px 0;
     background-color: #121212;
+    color: #FFFFFF;
+  }
+  
+  .reviews_first {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .reviews_header2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .reviews_ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .reviews_list, .reviews_li {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 610px;
+    height: 196px;
+  }
+  
+  .reviews_second {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .reviews_second img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .reviews_name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+  
+  .reviews_title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -2%;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+  }
+  
+  .reviews_commend {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    width: 570px;
+    height: 80px;
+    top: 96px;
+    left: 20px;
+  }
+  
+  .reviews_svg {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .reviews_ul {
+      grid-template-columns: 1fr;
+    }
+    
+    .reviews_list, .reviews_li {
+      width: 100%;
+      height: auto;
+    }
+    
+    .reviews_commend {
+      width: 100%;
+      height: auto;
+    }
   }

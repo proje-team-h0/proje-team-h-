@@ -1,52 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href=".partials/reviews/reviews_css/reviews.css">
-    <title>FocusFrame</title>
-</head>
-<body>
-<!-- Reviews Section -->
-    <section class="reviews-section">
-      <h2 class="section-title">Reviews</h2>
-      <ul class="reviews-list">
-            <li class="reviews">
-                <img
-                    src=".partials/reviews/reviews_img/AbrahamBaker.jpg"
-                    height="56"
-                    width="56"
-                    alt="Abraham Baker - Student"
-                />
-                <h3 class="reviews-name">Abraham Baker</h3>
-                <h4 class="reviews-title">Student</h4>
-                <p class="reviews-commend">
-                    I am very pleased that I decided to enroll in photography school. The teachers 
-                    turned out to be very talented and experienced professionals who share their 
-                    knowledge and are dedicated to their work. I was able to expand my skills and 
-                    discover my own style.
-                </p>        
-            </li>
-
-            <li class="reviews">
-                <img
-                    src=".partials/reviews/reviews_img/AmandaLowery.jpg"
-                    height="56"
-                    width="56"
-                    alt="Amanda Lowery - Student"
-                />
-                <h3 class="reviews-name">Amanda Lowery</h3>
-                <h4 class="reviews-title">Student</h4>
-                <p class="reviews-commend">
-                    The courses at the photography school exceeded all my expectations. I gained 
-                    not only technical knowledge, but also inspiration and motivation to reach new 
-                    heights in my creativity. Hands-on classes and workshops helped me 
-                    understand different styles of photography.
-                </p>
-            </li>
-        </ul>
-    </section>
-</body>
+  <!-- Reviews Section --> 
+  <section class="reviews_section">
+    <div class="reviews_first">
+      <h2 class="reviews_header2">Reviews</h2>
+      <ul class="reviews_ul">
+        <li class="reviews_list">
+          <div class="reviews_second">
+            <img
+            src="./reviews_img/AbrahamBaker.jpg"
+            height="56"
+            width="56"
+            alt="Abraham Baker - Student"
+            />
+            <h3 class="reviews_name">Abraham Baker</h3>
+            <h4 class="reviews_title">Student</h4>
+            <svg class="reviews_svg" width="56" height="56">
+              <use href="./reviews_img/stars.svg#icon-stars"></use>
+            </svg>
+          </div>
+          <p class="reviews_commend">                    
+            I am very pleased that I decided to enroll in photography school. The teachers 
+            turned out to be very talented and experienced professionals who share their 
+            knowledge and are dedicated to their work. I was able to expand my skills and 
+            discover my own style.
+          </p>
+        </li>
+        <li class="reviews_list">
+          <div class="reviews_second">
+            <img
+            src="./reviews_img/AmandaLowery.jpg"
+            height="56"
+            width="56"
+            alt="Amanda Lowery - Student"
+            />
+            <h3 class="reviews_name">Amanda Lowery</h3>
+            <h4 class="reviews_title">Student</h4>
+            <svg class="reviews_svg" width="56" height="56">
+              <use href="./reviews_img/stars.svg#icon-stars"></use>
+            </svg>
+          </div>
+          <p class="reviews_commend">                     
+            The courses at the photography school exceeded all my expectations. I gained 
+            not only technical knowledge, but also inspiration and motivation to reach new 
+            heights in my creativity. Hands-on classes and workshops helped me 
+            understand different styles of photography.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
