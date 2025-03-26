@@ -1,0 +1,38 @@
+.our-courses .title {
+    width: 265px;
+    height: 54px;  
+}
+
+.our-courses .section p{
+    width: 565px;
+    height: 60px;
+}
+
+.our-courses {
+    width: 1240px;
+    height: 562px;
+    margin: 0 auto;
+}
+
+.our-courses .box {
+    width: 400px;
+    height: 452px;
+    border-radius: 12px;
+    border: 1px solid #fff;
+}
+
+.our-courses .box .title {
+    font-family: "DM Sans", sans-serif;
+    top: 96px;
+    left: 32px;
+    width: 265px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+
+.our-courses .box-group {
+    display: flex;
+}
