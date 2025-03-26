@@ -1,0 +1,127 @@
+
+.footer {
+    background-color: #121212;
+    padding: 48px 20px;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .footer-container {
+    text-align: left;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  
+  .footer-logo {
+    display: block;
+    font-size: 16.25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 32px;
+  }
+  
+  .footer-contacts {
+    margin-bottom: 91px;
+  }
+  
+  .footer-phone {
+    display: block;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .footer-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+  
+  .footer-legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .footer-nav {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-nav-column {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .footer-nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .footer-form {
+    text-align: right;
+    display: flex;
+    gap: 8px;
+  
+  }
+  
+  .footer-input {
+    width: 178px;
+    height: 60px;
+    padding: 0 16px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .footer-button {
+    width: 60px;
+    height: 60px;
+    background: rgba(29, 29, 29, 1);
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .footer-copyright {
+    text-align: right;
+    margin-top: 270px;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    
+    .footer-copyright {
+      margin-top: 48px;
+      text-align: center;
+    }
+  }
+  
