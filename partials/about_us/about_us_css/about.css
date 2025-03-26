@@ -1,0 +1,50 @@
+.about-us {
+    width: 1240px;
+    height: 344px;
+    top: 1172px;
+    left: 100px;
+    gap: 50px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.about-us .title, .our-courses .title {
+    font-family: "DM Sans", sans-serif;
+    width: 196px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -4%;
+}
+
+.about-us .title span, .our-courses .title span {
+    color: #BEA69E;
+}
+
+.about-us .section, .our-courses .section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .section img{
+    width: 560px;
+    height: 240px;
+    border-radius: 1000px;
+    object-fit: cover;
+}
+
+.about-us .section p, .our-courses .section p{
+    font-family: "DM Sans", sans-serif;
+    width: 314px;
+    height: 220px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+}
+
+.about-us .section .right{
+    width: 276px;
+    height: 215px;
+}
