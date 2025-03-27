@@ -32,6 +32,22 @@
         $("#footer").load("./partials/footer/footer_html/footer.html");
       });
     </script>
+    <script>
+      /* Nav butonun içine hapsetmekiçin kullanılan js kodu*/
+       document.addEventListener("DOMContentLoaded", function () {
+      const mobileMenu = document.querySelector(".mobil-menu-container");
+      const openMobileBtn = document.querySelector(".nav-mobile-btn");
+      const closeMobileBtn = document.querySelector(".mobile-btn-close");
+      
+      mobileMenu.style.display = "none";
+      openMobileBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "flex";
+      });
+      closeMobileBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "none";
+      });
+  });
+  </script>
   </head>
   <body>
     <!--header-hero-->
