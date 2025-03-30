@@ -8,7 +8,7 @@ body{
     border: 1px;
     width: 1440px;
     height: 910px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Graphic.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Graphic.jpg);
 }
 /*HEADER*/
 .header{
@@ -129,7 +129,6 @@ body{
     height: 56px;
     top: 494px;
     left: 50px;
-    justify-content: center;
     align-items: center;
     margin: 136px 303px 50px 50px;
     
@@ -142,7 +141,7 @@ body{
 }
 .users{
     display: flex;
-    gap: 12px;
+    gap: 46px;
     width: 231px;
     height: 56px;
     justify-content: center;
