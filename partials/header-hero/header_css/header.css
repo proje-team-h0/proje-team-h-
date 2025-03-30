@@ -83,6 +83,10 @@ body{
     top: 160px;
     left: 100px;
 }
+.container-hero{
+    display: flex;
+    gap:130px;
+}
 .hero-img{
     top: 80px;
     left: 743px;
