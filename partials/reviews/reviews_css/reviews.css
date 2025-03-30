@@ -1,4 +1,10 @@
 .reviews_section {
+  width: 1240px;
+    height: 300px;
+    top: 3610px;
+    left: 100px;
+    gap: 50px;
+    position: absolute;
     padding: 80px 0;
     background-color: #121212;
     color: #FFFFFF;
