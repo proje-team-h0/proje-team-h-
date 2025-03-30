@@ -141,7 +141,7 @@ body{
 }
 .users{
     display: flex;
-    gap: 46px;
+    gap: 80px;
     width: 231px;
     height: 56px;
     justify-content: center;
