@@ -8,7 +8,7 @@ body{
     border: 1px;
     width: 1440px;
     height: 910px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Graphic.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Graphic.png);
 }
 /*HEADER*/
 .header{
