@@ -1,4 +1,11 @@
 /* Mentors Section */
+.mentors{
+  width: 1240px;
+  height: 354px;
+  top: 2378px;
+  left: 100px;
+  position: absolute;
+}
 .title-mentors {
     font-size: 28px;
     font-weight: 500;
