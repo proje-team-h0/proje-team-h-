@@ -12,6 +12,7 @@ body{
 }
 /*HEADER*/
 .header{
+    position: absolute;
     display: flex;
     gap:20px;
     width:1240px;
@@ -73,6 +74,7 @@ body{
 }
 /*MAİN*/
 .hero-section{
+    position: absolute;
     display: flex;
     gap: 130px;
     width: 1240px;
@@ -88,11 +90,13 @@ body{
     gap:130px;
 }
 .hero-img{
+    position: absolute;
     top: 80px;
     left: 743px;
     margin: 80px 100px 0 -130px;
 }
 .h1{
+    position: absolute;
     width: 563px;
     height: 204px;
     top: 80px;
@@ -112,6 +116,7 @@ body{
     letter-spacing: -0.04em;
 }
 .hero-text{
+    position: absolute;
     width: 418px;
     height: 54px;
     top: 304px;
@@ -123,6 +128,7 @@ body{
     margin: 20px 275px 136px 50px;
 }
 .block{
+    position: absolute;
     display: flex;
     gap: 40px;
     width: 390px;
@@ -251,6 +257,7 @@ body{
 }
 /*REKLAM*/
 .master-sec{
+    position: absolute;
     margin: 0;
     width: 1440px;
     height: 112px;
