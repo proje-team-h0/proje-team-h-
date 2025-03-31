@@ -10,15 +10,20 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
 </symbol>
+<symbol id="icon-arrow" viewBox="0 0 32 32">
+<title>arrow</title>
+<path fill="none" stroke="#777" style="stroke: var(--color2, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
+<path fill="none" stroke="#777" style="stroke: var(--color2, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
+</symbol>
 <symbol id="icon-Nav" viewBox="0 0 46 32">
 <title>Nav</title>
-<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 5.074h35.329"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 24.468h35.329"></path>
-<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color3, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 5.074h35.329"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color3, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M8.671 24.468h35.329"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color3, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.4286" d="M19.602 14.771h24.398"></path>
 </symbol>
 <symbol id="icon-Arrow-1" viewBox="0 0 64 32">
 <title>Arrow-1</title>
-<path fill="#fff" style="fill: var(--color2, #fff)" d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff)" d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
 </symbol>
 <symbol id="icon-Vector" viewBox="0 0 34 32">
 <title>Vector</title>
