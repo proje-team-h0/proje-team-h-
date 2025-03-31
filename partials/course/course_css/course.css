@@ -75,28 +75,33 @@
   }
   
   .box-group .box-top {
-    margin: 32px 32px;
+    margin-left: 32px;
+    margin-top: 32px;
     display: flex;
     width: 336px;
     height: 32px;
-    gap: 290px;
+    gap: 286px;
     align-items: flex-end;
   }
   
   .box-group .box-top p {
     color: #ffffff;
-  }  
-  .arrow{
+  }
+
+  .box a, .box a:hover {
+    background-color: #1D1D1D;
     border-radius: 50%;
-    border: 1px solid rgba(29, 29, 29, 1);
-    background-color: rgba(29, 29, 29, 1);
     width: 32px;
     height: 32px;
-  }
-  .arrow-svg{
-    top: 6px;
-    left: 6px;
-    justify-content: center;
+    display: flex;
     align-items: center;
-    margin: 5px 5px;
+    justify-content: center;
+  }
+
+  .box a:hover {
+    background-color: #BEA69E;
+  }
+
+  .box:first-child .box-top {
+    gap: 290px;
   }
