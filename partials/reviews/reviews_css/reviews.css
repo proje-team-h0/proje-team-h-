@@ -1,4 +1,9 @@
 .reviews_section {
+  position: absolute;
+  width: 1240px;
+  height: 300px;
+  top: 3610px;
+  left: 100px;
   margin-bottom: 80px;
 }
 
