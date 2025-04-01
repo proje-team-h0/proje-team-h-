@@ -1,9 +1,4 @@
-  body {
-    margin: 0 auto;
-    position: relative;
-  }
-  
-  .about-us {
+.about-us {
     width: 1240px;
     height: 344px;
     position: absolute;
