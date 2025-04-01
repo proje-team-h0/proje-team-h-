@@ -1,0 +1,123 @@
+/*Sign up*/
+.form-div{
+    width: 1240px;
+    height: 578px;
+    top: 2882px;
+    left: 100px;
+    gap: 200px;
+    position: absolute;
+    margin: 150px 100px;
+    display: flex;
+}
+.sign-div{
+  width: 480px;
+  height: 578px;
+  display: block;
+}
+.sign-h2{
+ font-family: "DM Sans", sans-serif;
+ width: 159px;
+ height: 54px;
+ font-weight: 500;
+ font-size: 48px;
+ line-height: 54px;
+ letter-spacing: -0.04em;
+}
+.sign-span{
+    color: rgba(255, 255, 255, 1);
+}
+.sign-span2{
+    color: rgba(190, 166, 158, 1);
+}
+.sign-p1{
+    font-family: "DM Sans", sans-serif;
+    width: 480px;
+    height: 40px;
+    top: 74px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: -0.02em;
+    color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+}
+.sign-list{
+    margin: 40px 0;
+}
+.name-input{
+    margin-bottom: 14px;
+    width: 480px;
+    height: 60px;
+    top: 154px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form-textarea{
+    width: 480px;
+    height: 120px;
+    top: 302px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 40px;
+}
+.submit-btn{
+    width: 479px;
+    height: 80px;
+    top: 462px;
+    border-radius: 12px;
+    padding:16px 216px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.sign-p2{
+    width:480px;
+    height: 36px;
+    font-family:  "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.5);
+}
+.span-p2{
+    text-decoration: underline;
+    font-style: solid;
+    offset: 0;
+    text-decoration-thickness: 0;
+}
+.form-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isabella-div{
+    width: 190px;
+    height: 288px;
+    top: 252px;
+    border-radius: 1000px;
+    background-color: rgba(190, 166, 158, 1);
+    justify-content: center;
+    align-items: center;
+    margin-right: 86px;
+}
+.isabella{
+    top: 478px;
+    left: 18px;
+    margin: 80px 58px 63px 1px;
+}
+.video-div{
+    width: 350px;
+    height: 540px;
+    left: 210px;
+    border-radius: 1000px;
+    background-color: rgba(29, 29, 29, 1);
+}
+.video{
+    width: 254px;
+    height: 313px;
+    top: 139px;
+    left: 258px;
+    justify-content: center;
+    align-items: center;
+    margin: 139px 48px 88px 48px;
+}

@@ -1,0 +1,107 @@
+ 
+  .our-courses .title {
+    width: 265px;
+    height: 54px;
+  }
+  
+  .our-courses .section {
+    width: 1240px;
+    height: 60px;
+    gap: 410px;
+  }
+  
+  .box > p {
+    width: 336px;
+    color: #ffffff80;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+    position: absolute;
+    width: 336;
+    height: 60;
+    top: 360px;
+    left: 32px;
+  }
+  
+  .our-courses .section p {
+    width: 565px;
+    height: 60px;
+    margin: 0;
+  }
+  
+  .our-courses {
+    top: 1666px;
+    width: 1240px;
+    left: 100px;
+    position: absolute;
+    height: 562px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .our-courses .box {
+    width: 400px;
+    height: 452px;
+    border-radius: 12px;
+    border: 1px solid #ffffff33;
+    background: linear-gradient(#060707, #1d1d1d);
+    position: relative;
+  }
+  
+  .our-courses .box .title {
+    font-family: "DM Sans", sans-serif;
+    top: 96px;
+    left: 32px;
+    width: 265px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    position: absolute;
+  }
+  
+  .our-courses .title {
+    margin: 0;
+  }
+  
+  .our-courses .box-group {
+    display: flex;
+    top: 110px;
+    position: absolute;
+    gap: 12px;
+  }
+  
+  .box-group .box-top {
+    margin-left: 32px;
+    margin-top: 32px;
+    display: flex;
+    width: 336px;
+    height: 32px;
+    gap: 286px;
+    align-items: flex-end;
+  }
+  
+  .box-group .box-top p {
+    color: #ffffff;
+  }
+
+  .box a, .box a:hover {
+    background-color: #1D1D1D;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box a:hover {
+    background-color: #BEA69E;
+  }
+
+  .box:first-child .box-top {
+    gap: 290px;
+  }

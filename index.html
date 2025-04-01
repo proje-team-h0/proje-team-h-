@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./partials/header-hero/header_css/header.css">
-    <link rel="stylesheet" href="./partials/about_us/about_us_css/about.css">
-    <link rel="stylesheet" href="./partials/course/course_css/course.css">
-    <link rel="stylesheet" href="./partials/footer/footer_css/footer.css">
-    <link rel="stylesheet" href="./partials/form/form_css/form.css">
-    <link rel="stylesheet" href="./partials/mentors/mentor_css/mentor.css">
-    <link rel="stylesheet" href="./partials/reviews/reviews_css/reviews.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./partials/header-hero/header_css/header.css"
+    />
+    <link rel="stylesheet" href="./partials/about_us/about_us_css/about.css" />
+    <link rel="stylesheet" href="./partials/course/course_css/course.css" />
+    <link rel="stylesheet" href="./partials/footer/footer_css/footer.css" />
+    <link rel="stylesheet" href="./partials/form/form_css/form.css" />
+    <link rel="stylesheet" href="./partials/mentors/mentor_css/mentor.css" />
+    <link rel="stylesheet" href="./partials/reviews/reviews_css/reviews.css" />
     <title>FocusFrame</title>
-</head>
-<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#header").load("./partials/header-hero/header_html/header.html");
+        $("#about").load("./partials/about_us/about_us_html/about.html");
+        $("#course").load("./partials/course/course_html/course.html");
+        $("#mentor").load("./partials/mentors/mentor_html/mentor.html");
+        $("#form").load("./partials/form/form_html/form.html");
+        $("#reviews").load("./partials/reviews/reviews_html/reviews.html");
+        $("#footer").load("./partials/footer/footer_html/footer.html");
+      });
+    </script>
+    <script>
+      /* Nav butonun içine hapsetmekiçin kullanılan js kodu*/
+       document.addEventListener("DOMContentLoaded", function () {
+      const mobileMenu = document.querySelector(".mobil-menu-container");
+      const openMobileBtn = document.querySelector(".nav-mobile-btn");
+      const closeMobileBtn = document.querySelector(".mobile-btn-close");
+      
+      mobileMenu.style.display = "none";
+      openMobileBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "flex";
+      });
+      closeMobileBtn.addEventListener("click", function () {
+          mobileMenu.style.display = "none";
+      });
+  });
+  </script>
+  </head>
+  <body>
     <!--header-hero-->
-    <load src="./partials/header-hero/header_html/" />
+    <load src="./partials/header-hero/header_html/header.html" />
     <!--about_us-->
-    <load src="./partials/about_us/about_us_html/" />
+    <load src="./partials/about_us/about_us_html/about.html" />
     <!--courses-->
-    <load src="./partials/course/course_html/" />
+    <load src="./partials/course/course_html/course.html" />
     <!--mentors-->
-    <load src="./partials/mentors/mentor_html/" />
+    <load src="./partials/mentors/mentor_html/mentor.html" />
     <!--form-->
-    <load src="./partials/form/form_html/" />
+    <load src="./partials/form/form_html/form.html" />
     <!--reviews-->
-    <load src="./partials/reviews/reviews_html/" />
+    <load src="./partials/reviews/reviews_html/reviews.html" />
     <!--footer-->
-    <load src="./partials/footer/footer_html/" />
-</body>
+    <load src="./partials/footer/footer_html/footer.html" />
+
+    <div id="header"></div>
+    <div id="about"></div>
+    <div id="course"></div>
+    <div id="mentor"></div>
+    <div id="form"></div>
+    <div id="reviews"></div>
+    <div id="footer"></div>
+  </body>
 </html>
