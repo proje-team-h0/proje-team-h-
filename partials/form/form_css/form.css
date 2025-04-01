@@ -44,6 +44,7 @@
     margin: 40px 0;
 }
 .name-input{
+    padding-left: 18px;
     margin-bottom: 14px;
     width: 480px;
     height: 60px;
@@ -52,6 +53,7 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .form-textarea{
+    padding-left: 18px;
     width: 480px;
     height: 120px;
     top: 302px;
