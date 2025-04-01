@@ -567,7 +567,11 @@
         height: 98px;
         top: 1120px;
         left: -36px;
+<<<<<<< Updated upstream
+        margin: 0 36px 100px 36px;
+=======
         margin: 0 68px 100px 68px;
+>>>>>>> Stashed changes
     }
     .master-div{
         width: 840px;
@@ -646,6 +650,7 @@
         left: 100px;
         margin: 80px 100px 150px 9px;
     }
+<<<<<<< Updated upstream
     .container-hero{
         display: flex;
         width: 1080px;
@@ -653,6 +658,8 @@
         top: 160px;
         left: 100px;
     }
+=======
+>>>>>>> Stashed changes
     .h1{
         width: 563px;
         height: 204px;
@@ -718,11 +725,19 @@
         left: 633px;
         margin: 80px 50px 0 20px;
     }
+<<<<<<< Updated upstream
     .master-sec{
+=======
+    .master{
+>>>>>>> Stashed changes
         position: absolute;
         width: 1280px;
         height: 112px;
         top: 910px;
+<<<<<<< Updated upstream
+        margin: 0 0 100px 0;
+=======
+>>>>>>> Stashed changes
     }
     .master-div{
         width: 1239px;
@@ -740,6 +755,9 @@
         display: none;
     }
 } 
+<<<<<<< Updated upstream
+
+=======
 @media (min-width:1440px) {
     .body-back{
         width: 1440px;
@@ -815,13 +833,6 @@
         left: 100px;
         margin: 80px 100px 150px 9px;
     }
-    .container-hero{
-        display: flex;
-        width: 1080px;
-        height: 600px;
-        top: 160px;
-        left: 100px;
-    }
     .h1{
         width: 563px;
         height: 204px;
@@ -887,7 +898,7 @@
         left: 743px;
         margin: 80px 100px 0 130px;
     }
-    .master-sec{
+    .master{
         position: absolute;
         width: 1440px;
         height: 112px;
@@ -909,3 +920,4 @@
         display: none;
     }
 }
+>>>>>>> Stashed changes
