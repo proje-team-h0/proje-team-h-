@@ -41,6 +41,8 @@
 .reviews_second {
   display: flex;
   justify-content: space-between;
+  width: 1240px;
+  height: 196px;
 }
 .block{
   display: flex;
