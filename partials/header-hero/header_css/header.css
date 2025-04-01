@@ -646,6 +646,13 @@
         left: 100px;
         margin: 80px 100px 150px 9px;
     }
+    .container-hero{
+        display: flex;
+        width: 1080px;
+        height: 600px;
+        top: 160px;
+        left: 100px;
+    }
     .h1{
         width: 563px;
         height: 204px;
@@ -807,6 +814,13 @@
         top: 160px;
         left: 100px;
         margin: 80px 100px 150px 9px;
+    }
+    .container-hero{
+        display: flex;
+        width: 1080px;
+        height: 600px;
+        top: 160px;
+        left: 100px;
     }
     .h1{
         width: 563px;
