@@ -301,3 +301,597 @@
     transform: translateX(-100%);
   }
 }
+@media (min-width:320px) {
+    .body-back{
+        width: 499px;
+        height: 947px;
+        position: absolute;
+        left: -62px;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .header{
+        width: 335px;
+        height: 50px;
+        top:20px;
+        left:20px;
+        margin: 20px 100px;
+    }
+    .header-div{
+        justify-content: space-between;
+    }
+    .nav, .header-btn{
+        display: none;
+    }
+    .container-hero{
+        display: block;
+        width: 335px;
+        height: 777px;
+        top: 90px;
+        left: 20px;
+        margin: 20px 20px 80px 20px;
+
+    }
+    .hero-section{
+        position: absolute;
+        width: 335px;
+        height: 777px;
+        top: 90px;
+        left: 20px;
+        background-color: rgba(29, 29, 29, 1);
+    }
+    .h1{
+        width: 295px;
+        height: 176px;
+        top: 40px;
+        left: 20px;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        margin: 40px 20px 20px 20px;
+    }
+    .par-span{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+    }
+    .hero-text{
+        width: 295px;
+        height: 72px;
+        top: 236px;
+        left: 20px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        margin: 20px 20px 40px 20px;
+    }
+    .block{
+        width: 253px;
+        height: 84px;
+        top: 348px;
+        left: 20px;
+        gap: 40px;
+    }
+    .users{
+        width: 109px;
+        height: 84px;
+        gap: 4px;
+        display: block;
+    }
+    .users-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        width: 89px;
+        height: 36px;
+        gap: 4px;
+    }
+    .reviews{
+        width: 104px;
+        height: 44px;
+        gap: 12px;
+        margin: 0 0 40px 40px;
+    }
+    .rec-text{
+        width: 57px;
+        height: 40px;
+        gap: 4px;
+        margin: 2px 9px 2px 12px;
+    }
+    .hero-img{
+        width: 259px;
+        height: 314px;
+        top: 463px;
+        left: 38px;
+        margin: 31px 38px 0 38px;
+    }
+    .master-sec{
+        position: absolute;
+        width: 588px;
+        height: 72px;
+        top: 947px;
+        left: -106px;
+        margin: 0 127px 80px 126px;
+    }
+    .master-div{
+        width: 588px;
+        height: 32px;
+        top: 20px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .master-span{
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+@media (min-width:768px) {
+
+    .body-back{
+        width: 768px;
+        height: 1120px;
+        margin: 0;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .header{
+        width: 704px;
+        height: 60px;
+        top:20px;
+        left:32px;
+        margin: 20px 32px 40px 32px;
+    }
+    .nav{
+        display: none;
+    }
+    .header-btn-mobil{
+        display: none;
+    }
+    .header-btn{
+        display: flex;
+        width: 186px;
+        height: 60px;
+        left: 518px;
+        border-radius: 12px;
+        padding: 16px 58px;
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgba(18, 18, 18, 1);
+    }
+    .header-div{
+        display: flex;
+        justify-content: space-between;
+        width: 504px;
+        height: 60px;
+        border-radius: 12px;
+    }
+    .container-hero{
+        display: block;
+        width: 704px;
+        height: 900px;
+        top: 120px;
+        left: 32px;
+    }
+    .hero-section{
+        display: block;
+        position: absolute;
+        width: 704px;
+        height: 900px;
+        top: 120px;
+        left: 32px;
+        margin: 40px 32px 100px 10px;
+    }
+    .h1{
+        width: 517px;
+        height: 192px;
+        top: 64px;
+        left: 32px;
+        font-size: 60px;
+        line-height: 64px;
+        letter-spacing: -0.04em;
+        margin: 64px 155px 20px 32px;
+    }
+    .par-span{
+        font-weight: 400;
+        font-style: italic;
+        font-size: 60px;
+        line-height: 64px;
+        letter-spacing: -0.04em;
+    }
+    .hero-text{
+        width: 418px;
+        height: 54px;
+        top: 276px;
+        left: 32px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        margin: 20px 254px 40px 32px;
+    }
+    .block{
+        width: 390px;
+        height: 56px;
+        top: 370px;
+        left: 32px;
+        gap: 40px;
+        margin: 40px 282px 40px 32px;
+    }
+    .users{
+        width: 231px;
+        height: 56px;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .users-text{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        width: 82px;
+        height: 40px;
+        gap: 8px;
+    }
+    .reviews{
+        width: 119px;
+        height: 50px;
+        gap: 12px;
+        margin: 0 0 6px 40px;
+    }
+    .rec-text{
+        width: 57px;
+        height: 48px;
+        gap: 8px;
+        margin: 1px 0 1px 12px;
+    }
+    .hero-img{
+        width: 393px;
+        height: 434px;
+        top: 466px;
+        left: 156px;
+        margin: 40px 155px 0 156px;
+    }
+    .master-sec{
+        position: absolute;
+        width: 840px;
+        height: 98px;
+        top: 1120px;
+        left: -36px;
+        margin: 0 68px 100px 68px;
+    }
+    .master-div{
+        width: 840px;
+        height: 50px;
+        top: 24px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .master-span{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media (min-width:1280px){ 
+    .body-back{
+        width: 1280px;
+        height: 909px;
+        margin: 0;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .header{
+        width: 1080px;
+        height: 60px;
+        top:20px;
+        left:100px;
+        margin: 20px 100px 80px 100px;
+        gap: 20px;
+    }
+    .nav{
+        display: flex;
+    }
+    .header-nav{
+        width: 502px;
+        height: 18px;
+        top: 21px;
+        left: 270px; 
+        gap: 28px;
+        margin: 21px 50px 21px 97px;
+        padding-left: 0;
+    }
+    .header-btn{
+        display: flex;
+        width: 238px;
+        height: 60px;
+        left: 842px;
+        padding: 16px 75px;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: rgba(18, 18, 18, 1);
+    }
+    .header-list{
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .header-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 822px;
+        height: 60px;
+        border-radius: 12px;
+        margin-right: 20px;
+    }
+    .hero-section{
+        position: absolute;
+        width: 1080px;
+        height: 600px;
+        top: 160px;
+        left: 100px;
+        margin: 80px 100px 150px 9px;
+    }
+    .h1{
+        width: 563px;
+        height: 204px;
+        top: 80px;
+        left: 50px;
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -0.04em;
+        margin: 80px 20px 20px 50px;
+    }
+    .par-span{
+        font-size: 64px;
+        line-height: 68px;
+    }
+    .hero-text{
+        width: 418px;
+        height: 54px;
+        top: 304px;
+        left: 50px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        margin: 20px 165px 130px 50px;
+    }
+    .block{
+        width: 388px;
+        height: 56px;
+        top: 494px;
+        left: 50px;
+        gap: 40px;
+        margin: 136px 195px 50px 50px;
+    }
+    .users{
+        width: 229px;
+        height: 56px;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .users-text{
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        width: 82px;
+        height: 56px;
+        gap: 8px;
+        margin-left: 8px;
+        margin-top: 0;
+
+    }
+    .reviews{
+        width: 119px;
+        height: 50px;
+        gap: 12px;
+        margin: 0 0 56px 40px;
+    }
+    .hero-img{
+        width: 397px;
+        height: 520px;
+        top: 80px;
+        left: 633px;
+        margin: 80px 50px 0 20px;
+    }
+    .master{
+        position: absolute;
+        width: 1280px;
+        height: 112px;
+        top: 910px;
+    }
+    .master-div{
+        width: 1239px;
+        height: 64px;
+        top: 24px;
+        left: 21px;
+        font-size: 59px;
+        line-height: 64px;
+    }
+    .master-span{
+        font-size: 59px;
+        line-height: 64px;
+    }
+    .header-btn-mobil, .nav-mobile-btn{
+        display: none;
+    }
+} 
+@media (min-width:1440px) {
+    .body-back{
+        width: 1440px;
+        height: 910px;
+        margin: 0;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .logo{
+        margin-top: 21px;
+        margin-right: 50px;
+
+    }
+    .header{
+        width: 1240px;
+        height: 60px;
+        top:20px;
+        left:100px;
+        margin: 20px 100px 80px 100px;
+        gap: 20px;
+    }
+    
+    .header-nav{
+        width: 550px;
+        height: 18px;
+        top: 21px;
+        left: 382px; 
+        gap: 40px;
+        margin: 21px 50px 21px 209px;
+        padding-left: 0;
+    }
+    .header-btn{
+        display: flex;
+        width: 238px;
+        height: 60px;
+        left: 1002px;
+        padding: 16px 84px;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: rgba(18, 18, 18, 1);
+        margin:20px 100px 80px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sign-link{
+        width: 70px;
+        height: 28px;
+    }
+    .header-list{
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .header-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 982px;
+        height: 60px;
+        border-radius: 12px;
+        margin: 20px 20px 80px 100px;
+    }
+    .hero-section{
+        position: absolute;
+        width: 1240px;
+        height: 600px;
+        top: 160px;
+        left: 100px;
+        margin: 80px 100px 150px 9px;
+    }
+    .h1{
+        width: 563px;
+        height: 204px;
+        top: 80px;
+        left: 50px;
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -0.04em;
+        margin: 80px 130px 20px 50px;
+    }
+    .par-span{
+        font-size: 64px;
+        line-height: 68px;
+    }
+    .hero-text{
+        width: 418px;
+        height: 54px;
+        top: 304px;
+        left: 50px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        font-weight: 400;
+        margin: 20px 275px 136px 50px;
+    }
+    .block{
+        width: 390px;
+        height: 56px;
+        top: 494px;
+        left: 50px;
+        gap: 40px;
+        margin: 136px 303px 50px 50px;
+    }
+    .users{
+        width: 231px;
+        height: 56px;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .users-text{
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        width: 82px;
+        height: 56px;
+        gap: 8px;
+        margin-left: 8px;
+        margin-top: 0;
+
+    }
+    .reviews{
+        width: 119px;
+        height: 50px;
+        gap: 12px;
+        margin: 0 0 56px 40px;
+    }
+    .hero-img{
+        width: 397px;
+        height: 520px;
+        top: 80px;
+        left: 743px;
+        margin: 80px 100px 0 130px;
+    }
+    .master{
+        position: absolute;
+        width: 1440px;
+        height: 112px;
+        top: 910px;
+    }
+    .master-div{
+        width: 1239px;
+        height: 64px;
+        top: 24px;
+        left: 100px;
+        font-size: 59px;
+        line-height: 64px;
+    }
+    .master-span{
+        font-size: 59px;
+        line-height: 64px;
+    }
+    .header-btn-mobil, .nav-mobile-btn{
+        display: none;
+    }
+}
