@@ -1,9 +1,4 @@
-body{
-    font-family: "DM Sans", sans-serif;
-    background-color: #121212;
-    width: 1440px;
-    height: 4391px;
-}
+
 .body-back{
     border: 1px;
     width: 1440px;
@@ -34,6 +29,7 @@ body{
     
 }
 .logo{
+    font-family: "DM Sans", sans-serif;
     margin-top: 22px;
     margin-bottom: 22px;
     margin-left: 50px; 
@@ -47,6 +43,7 @@ body{
     margin:41px 50px 41px 209px;
 }
 .header-list{
+  font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -55,6 +52,7 @@ body{
   
 }
 .header-btn{
+    font-family: "DM Sans", sans-serif;
     width: 238px;
     height: 60px;
     border: 1px solid #FFFFFF;
@@ -93,6 +91,7 @@ body{
     margin: 80px 100px 0 -130px;
 }
 .h1{
+    font-family: "DM Sans", sans-serif;
     width: 563px;
     height: 204px;
     top: 80px;
@@ -104,6 +103,7 @@ body{
     margin: 80px 130px 20px 50px;
 }
 .par-span{
+    font-family: "DM Sans", sans-serif;
     color: #BEA69E;
     font-weight: 400;
     font-style: italic;
@@ -112,6 +112,7 @@ body{
     letter-spacing: -0.04em;
 }
 .hero-text{
+    font-family: "DM Sans", sans-serif;
     width: 418px;
     height: 54px;
     top: 304px;
@@ -232,6 +233,7 @@ body{
     gap: 8px;
 }
 .rec-h2{
+    font-family: "DM Sans", sans-serif;
     width: 57px;
     height: 20px;
     font-weight: 400;
@@ -241,6 +243,7 @@ body{
     color: transparent #FFFFFF;
 }
 .rec-p{
+    font-family: "DM Sans", sans-serif;
     width: 57px;
     height: 20px;
     font-weight: 500;
@@ -262,6 +265,7 @@ body{
 }
 
 .master{
+  font-family: "DM Sans", sans-serif;
   overflow: hidden;
   font-weight: 400;
   font-size: 59px;
