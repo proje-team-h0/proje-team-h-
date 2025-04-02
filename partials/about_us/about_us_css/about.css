@@ -53,6 +53,7 @@
     width: 630px;
     height: 220px;
     display: flex;
+    gap: 40px;
   }
   
   .about-us .section .right {
