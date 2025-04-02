@@ -9,6 +9,10 @@
   gap: 410px;
 }
 
+.our-courses ol {
+  list-style: none;
+}
+
 .box > p {
   width: 336px;
   color: #ffffff80;
