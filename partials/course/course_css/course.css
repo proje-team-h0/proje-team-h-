@@ -38,8 +38,7 @@
 .our-courses {
   top: 1666px;
   width: 1240px;
-
-  position: relative;
+  position: absolute;
   height: 562px;
   color: #fff;
   margin: 150px 100px;
