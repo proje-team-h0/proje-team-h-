@@ -1,12 +1,13 @@
+/*ABOUT*/
 .about-us {
   width: 1240px;
   height: 344px;
   position: absolute;
   top: 1172px;
-  left: 100px;
+  
   gap: 50px;
   color: #fff;
-  margin: 0 auto;
+  margin: 150px 100px 150px 100px;
 }
 
 .about-us .title,

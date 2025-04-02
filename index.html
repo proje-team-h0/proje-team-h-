@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="./partials/header-hero/header_css/header.css"
     />
+    <link rel="stylesheet" href="./partials/header-hero/header_css/reklam.css" />
     <link rel="stylesheet" href="./partials/about_us/about_us_css/about.css" />
     <link rel="stylesheet" href="./partials/course/course_css/course.css" />
     <link rel="stylesheet" href="./partials/footer/footer_css/footer.css" />
@@ -24,6 +25,7 @@
     <script>
       $(document).ready(function () {
         $("#header").load("./partials/header-hero/header_html/header.html");
+        $("#reklam").load("./partials/header-hero/header_html/reklam.html");
         $("#about").load("./partials/about_us/about_us_html/about.html");
         $("#course").load("./partials/course/course_html/course.html");
         $("#mentor").load("./partials/mentors/mentor_html/mentor.html");
@@ -49,14 +51,22 @@
   });
   </script>
   <style>
-    body {
-      background-color: #121212;
-    }
+    body{
+        font-family: "DM Sans", sans-serif;
+        background-color: #121212;
+        width: 1440px;
+        height: 4391px;
+}
   </style>
   </head>
   <body>
-    <!--header-hero-->
+    <header>
+      <!--header-hero-->
     <load src="./partials/header-hero/header_html/header.html" />
+    </header>
+    <main>
+      <!--reklam-->
+    <load src="./partials/header-hero/header_html/reklam.html" />
     <!--about_us-->
     <load src="./partials/about_us/about_us_html/about.html" />
     <!--courses-->
@@ -67,10 +77,15 @@
     <load src="./partials/form/form_html/form.html" />
     <!--reviews-->
     <load src="./partials/reviews/reviews_html/reviews.html" />
-    <!--footer-->
+    </main>
+    <footer>
+       <!--footer-->
     <load src="./partials/footer/footer_html/footer.html" />
 
+    </footer>
+   
     <div id="header"></div>
+    <div id="reklam"></div>
     <div id="about"></div>
     <div id="course"></div>
     <div id="mentor"></div>
