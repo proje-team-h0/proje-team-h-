@@ -4,7 +4,6 @@
   height: 344px;
   position: absolute;
   top: 1172px;
-  
   gap: 50px;
   color: #fff;
   margin: 150px 100px 150px 100px;
@@ -60,4 +59,75 @@
 .about-us .section .right {
   width: 276px;
   height: 215px;
+}
+
+.about-us .section .left {
+  width: 314px;
+  height: 220px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-us {
+    width: 335px;
+    height: 630px;
+    top: 1099px;
+    left: 20px;
+    gap: 40px;
+  }
+
+  .about-us .section p,
+.our-courses .section p {
+  font-family: DM Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -2%;
+
+}
+
+  .about-us .section,
+  .our-courses .section {
+    flex-wrap: wrap;
+  }
+
+  .about-us .paragraph {
+    flex-wrap: wrap;
+    width: 335px;
+    height: 309px;
+    gap: 20px;
+  }
+
+  .about-us .section .right {
+    width: 276px;
+    height: 215px;
+  }
+
+  .about-us .section .left {
+    width: 335px;
+    height: 162px;
+  }
+
+  .about-us .title,
+  .our-courses .title {
+    width: 114px;
+    height: 32px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-us {
+    width: 704px;
+    height: 734px;
+    top: 1318px;
+    left: 32px;
+    gap: 50px;
+  }
+  .about-us .section {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
 }
