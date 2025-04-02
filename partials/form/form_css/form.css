@@ -51,6 +51,7 @@
     top: 154px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #121212;
 }
 .name-input:active{
     border-color: aqua;
@@ -63,6 +64,7 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 40px;
+    background-color: #121212;
 }
 .form-textarea:active{
     border-color: aqua;

@@ -1,11 +1,10 @@
  /*footer*/
  .footer_section {
   position: absolute;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Graphic.png);
+  background-image: url(../../../images/Graphic.png);
   width: 1440px;
   height: 331px;
-  top: 4060px;
-  
+  top: 4060px;  
   margin: 150px 0 0 0;
   color: #FFFFFF;
   font-family: 'DM Sans', sans-serif;
