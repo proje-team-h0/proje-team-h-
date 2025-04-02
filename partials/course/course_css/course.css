@@ -38,8 +38,8 @@
 .our-courses {
   top: 1666px;
   width: 1240px;
-  
-  position: absolute;
+
+  position: relative;
   height: 562px;
   color: #fff;
   margin: 150px 100px;
@@ -114,4 +114,51 @@
 
 .box:first-child .box-top {
   gap: 290px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-courses .box-group {
+    flex-wrap: wrap;
+    width: 480px;
+  }
+  .our-courses {
+    width: 335px;
+    height: 1398px;
+    top: 1809px;
+    left: 20px;
+  }
+  .our-courses .section {
+    flex-wrap: wrap;
+    width: 335px;
+    height: 124px;
+    gap: 20px;
+  }
+
+  .box {
+    width: 335px;
+    height: 398px;
+    top: 164px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .our-courses .box-group {
+    flex-wrap: wrap;
+  }
+  .our-courses {
+    width: 704px;
+    height: 1054px;
+    top: 2152px;
+    left: 32px;
+    gap: 50px;
+  }
+
+  .our-courses .section {
+    width: 704px;
+    height: 80px;
+    gap: 58px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
 }
