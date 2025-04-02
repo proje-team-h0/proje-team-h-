@@ -1,21 +1,4 @@
-<script>
-    /* Nav butonun içine hapsetmekiçin kullanılan js kodu*/
-     document.addEventListener("DOMContentLoaded", function () {
-    const mobileMenu = document.querySelector(".mobil-menu-container");
-    const openMobileBtn = document.querySelector(".nav-mobile-btn");
-    const closeMobileBtn = document.querySelector(".mobile-btn-close");
-    
-    mobileMenu.style.display = "none";
-    openMobileBtn.addEventListener("click", function () {
-        mobileMenu.style.display = "flex";
-    });
-    closeMobileBtn.addEventListener("click", function () {
-        mobileMenu.style.display = "none";
-    });
-});
-</script>
-</head>
-<body>
+
 <div class="body-back">
     <header class="header">
         <div class="header-div container">
@@ -43,10 +26,10 @@
             </div>
             
         </div>
-        
+       
             <button type="button" class="header-btn"><a href="#sign-link" class="sign-link">SIGN UP</a></button>
     </header>
-    <section class="hero-section">
+    <div class="hero-section">
         <div class="container-hero">
             <div class="hero">
                 <div class="div-text">
@@ -56,12 +39,12 @@
                 <div class="block">
                     <div class="users">
                             <ul class="images stacked-images">
-                                <li class="users-img"><img src="./images/girl-1.png"  srcset="./images/girl-1.png,
-                                    ./images/girl-1@2x.png, ./images/girl-1@3x.png" alt="girl-1" width="54" height="54"></li>
-                                <li class="users-img"><img src="./images/boy.png" srcset="./images/boy.png,
-                                    ./images/boy@2x.png, ./images/boy@3x.png" alt="boy" width="54" height="54"></li>
-                                <li class="users-img"><img src="./images/girl.png" srcset="./images/girl.png,
-                                    ./images/girl@2x.png, ./images/girl@2x.png" alt="girl" width="54" height="54"></li>
+                                <li class="users-img"><img src="./images/girl-1.png"  srcset="./images/girl-1.png 1x,
+                                    ./images/girl-1@2x.png 2x, ./images/girl-1@3x.png 3x" alt="girl-1" width="54" height="54"></li>
+                                <li class="users-img"><img src="./images/boy.png" srcset="./images/boy.png 1x,
+                                    ./images/boy@2x.png 2x, ./images/boy@3x.png" alt="boy" width="54" height="54"></li>
+                                <li class="users-img"><img src="./images/girl.png" srcset="./images/girl.png 1x,
+                                    ./images/girl@2x.png 2x, ./images/girl@3x.png 3x" alt="girl" width="54" height="54"></li>
                             </ul>
                         <div class="users-text">
                             <a href="#reviews-link">
@@ -87,20 +70,8 @@
                     
                 </div>
             </div> 
-            <img src="./images/Rectangle 5.png"srcset="./images/Rectangle 5.png,
-            ./images/Rectangle 5@2x.png, ./images/Rectangle 5@3x.png" alt="hero"  width="397" height="520" class="hero-img">
+            <img src="./images/Rectangle 5.png"srcset="./images/Rectangle 5.png 1x,
+            ./images/Rectangle 5@2x.png 2x, ./images/Rectangle 5@3x.png 3x" alt="hero"  width="397" height="520" class="hero-img">
         </div>
-         
-    </section>
+    </div>
 </div>
-
-<main>
-    <section class="master-sec">
-        <div class="master">
-            <div class="master-div">
-              <p class="master-line"><span class="master-span">Master</span> your photography <span class="master-span">skills with us!</span></p>
-              <p class="master-line"><span class="master-span">Master</span> your photography <span class="master-span">skills with us!</span></p>
-            </div>
-          </div>
-    </section>
-    

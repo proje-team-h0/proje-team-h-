@@ -1,4 +1,4 @@
-
+/*Mentors*/
 .our-mentors {
     background: linear-gradient(180deg, #1d1d1d 0%, #060707 100%);
     text-align: center;
@@ -8,18 +8,16 @@
   width: 1240px;
   height: 354px;
   top: 2378px;
-  left: 100px;
+  
   position: absolute;
+  margin: 150px 100px;
 }
 .title-mentors {
-    font-size: 32px;
-    font-weight: bold;
-    color:  #f8f9fa;
-    margin-bottom: 40px;
-    text-align: left;
-     margin-left: 0;
-     width: 265px;
-     height: 54px;
+    font-size: 48px;
+    font-weight: 500;
+    margin:0 974px 50px 0;
+    width: 266px;
+    height: 54px;
     
 }
 
@@ -31,10 +29,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 50px 103px 0 103px;
     max-width: 1200px;
 }
 
@@ -47,6 +45,8 @@
     align-items: center;
     transition: transform 0.3s ease-in-out;
     width: 100%;
+    gap: 16px;
+    max-height: 250px;
     max-width: 180px;
     border-radius: 0; 
 }
@@ -68,59 +68,24 @@
 }
 
 .info-mentors {
-    margin-top: 15px;
+    max-width: 174px;
+    max-height: 54;
+    margin-top: 16px;
     text-align: center;
 }
 
 .name-mentors {
     font-size: 20px;
-    font-weight: 600;
-    color: #333;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 4px;
 }
 
 .experience {
-    font-size: 16px;
-    color: #666;
-}
-
-/* Mobil (320px ve üstü) */
-@media (max-width: 374px) {
-    .list-mentors {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/* Küçük ekranlar (375px ve üstü) */
-@media (min-width: 375px) {
-    .list-mentors {
-        justify-content: center;
-    }
-}
-
-/* Tablet (768px ve üstü) */
-@media (min-width: 768px) {
-    .list-mentors {
-        justify-content: space-between;
-    }
-    .list-mentor {
-        max-width: 45%;
-    }
-}
-
-/* Masaüstü (1280px ve üstü) */
-@media (min-width: 1280px) {
-    .list-mentors {
-        justify-content: space-between;
-    }
-    .list-mentor {
-        max-width: 22%;
-    }
-}
-
-/* Retina Ekran Desteği */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .our-mentor {
-        image-rendering: auto;
-    }
+    
+    line-height: 18px;
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
 }
