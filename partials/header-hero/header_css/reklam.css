@@ -1,6 +1,6 @@
 /*REKLAM*/
 .master-sec{
-    margin: 0 100px 150px 100px;
+    margin: 0 100px 0 100px;
     width: 1440px;
     height: 112px;
     top: 910px;
@@ -54,7 +54,7 @@
     width: 588px;
     height: 72px;
     top: 947px;
-    left: -106px;
+    left: -50px;
 }
 .master-div{
     width: 588px;
@@ -75,7 +75,7 @@
     width: 840px;
     height: 98px;
     top: 1120px;
-    left: -36px;
+    left: 5px;
 }
 .master-div{
     width: 840px;

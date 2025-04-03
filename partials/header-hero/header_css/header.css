@@ -137,8 +137,6 @@
     top: 494px;
     left: 50px;
     align-items: center;
-    margin: 136px 303px 50px 50px;
-    
 }
 .images{
   list-style: none;
@@ -264,7 +262,7 @@
         width: 499px;
         height: 947px;
         position: absolute;
-        left: -62px;
+        left: 50px;
         border: 1px solid rgba(255, 255, 255, 0.7);
     }
     .header{
@@ -389,6 +387,7 @@
         width: 768px;
         height: 1120px;
         border: 1px solid rgba(255, 255, 255, 0.7);
+        left: 100px;
     }
     .header{
         width: 704px;
