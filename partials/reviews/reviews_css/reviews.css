@@ -32,7 +32,6 @@
 .reviews_list {
   border: 1px solid #666;
   border-radius: 10px;
-  flex-basis: calc((100% - 40px) / 2);
   background-color: #121212;
   width: 610px;
   height: 196px;
@@ -80,4 +79,131 @@
   line-height: 1.25rem;
   color: rgba(255, 255, 255, 1);
   margin: -20px 20px -20px 20px;
+}
+@media (min-width:375px) and (max-width:767px){ 
+  .reviews_section{
+    width: 335px;
+    height: 316px;
+    top: 5122px;
+    left:20px;
+    margin: 80px 100px;
+  }
+  .reviews_header2{
+    width: 100px;
+    height: 32px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .reviews_list{
+    width: 335px;
+    height: 300px;
+    top: 72px;
+  }
+  .ghost{
+    display: none;
+  }
+  .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 211px;
+    height: 56px;
+    top: 92px;
+    left: 20px;
+    gap: 10px;
+  }
+  .reviews_header{
+    width: 145px;
+    height: 44px;
+    gap: 4px;
+    margin-top: -46px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .reviews_title{
+    margin-top: -15px;
+  }
+  .stars{
+    margin-left: 70px;
+    margin-top: -1px;
+  }
+  .reviews_commend{
+    margin: 20px 20px;
+  }
+  .reviews_second{
+    display: block;
+  }
+
+}
+@media (min-width:768px) and (max-width:1279px) {
+  .reviews_section{
+    width: 704px;
+    height: 300px;
+    top: 4780px;
+    left: 32px;
+    margin: 100px 100px;
+  }
+  .reviews_header2{
+    width: 171px;
+    height: 54px;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  .reviews_list{
+    width: 640px;
+    height: 196px;
+    margin-left: 32px;
+  }
+  .ghost{
+    display: none;
+  }
+  .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 211px;
+    height: 56px;
+    top: 92px;
+    left: 20px;
+    gap: 10px;
+  }
+  .reviews_header{
+    width: 145px;
+    height: 44px;
+    gap: 4px;
+    margin-top: -46px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .reviews_title{
+    margin-top: -15px;
+  }
+  .stars{
+    margin-left: 70px;
+    margin-top: -1px;
+  }
+  .reviews_commend{
+    margin: -15px 20px;
+  }
+  .reviews_second{
+    display: block;
+  }
+}
+@media (min-width:1280px) and (max-width:1439px){
+  .reviews_header{
+    margin-top: -20px;
+  }
+  .reviews_title{
+    margin-top: -10px;
+  }
+  .reviews_commend{
+    margin-top: 0px;
+  }
+  .stars{
+    margin-left: 230px;
+  }
 }

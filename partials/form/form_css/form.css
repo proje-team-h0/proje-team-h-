@@ -135,7 +135,7 @@
     align-items: center;
     margin: 139px 48px 88px 48px;
 }
-@media (min-width:320px) and (max-width:767px){
+@media (min-width:375px) and (max-width:767px){
     .form-img{
         display: none;
     }
@@ -145,7 +145,6 @@
         height: 523px;
         top: 4519px;
         left: 20px;
-        margin: 80px 20px;
     }
     .sign-h2{
         width: 93px;
@@ -202,7 +201,6 @@
         height: 577px;
         top: 4103px;
         left: 32px;
-        margin: 100px 256px 100px 32px;
     }
     .sign-h2{
         width: 159px;
@@ -257,13 +255,13 @@
         margin: 0 0 38px 60px;
     }
     .form-div{
-        position: absolute;
+        
         width: 1,080px;
         height: 578px;
         top: 2922px;
         left: 100px;
         gap: 60px;
-        margin: 150px 100px;
+        margin: 150px 100px 150px 0;
     }
     .sign-h2{
         width: 159px;
