@@ -207,3 +207,18 @@
     margin-left: 230px;
   }
 }
+@media (min-width:1440px) {
+  .reviews_header{
+    margin-top: -20px;
+  }
+  .reviews_title{
+    margin-top: -10px;
+  }
+  .reviews_commend{
+    margin-top: 0px;
+  }
+  .stars{
+    margin-left: 230px;
+  }
+  
+}
