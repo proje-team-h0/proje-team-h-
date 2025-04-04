@@ -357,9 +357,7 @@
     .header-div{
         justify-content: space-between;
     }
-    .mobile-menu-container{
-        display: block;
-    }
+    
     .nav, .header-btn{
         display: none;
     }
@@ -489,9 +487,6 @@
     }
     .header-btn-mobil{
         display: none;
-    }
-    .mobile-menu-container{
-        display: block;
     }
     .nav-mobil-btn{
         display: flex;
@@ -778,12 +773,12 @@
         left: 633px;
         margin: 80px 50px 0 -150px;
     }
-    .header-btn-mobil, .nav-mobile-btn/*, .mobile-menu-container*/{
+    .header-btn-mobil, .nav-mobile-btn{
         display: none;
     }
 }
 @media (min-width:1440px){
-    .header-btn-mobil, .nav-mobile-btn /*, .mobile-menu-container*/{
+    .header-btn-mobil, .nav-mobile-btn{
         display: none;
     }
     .block-hero{
