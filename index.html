@@ -36,19 +36,30 @@
     </script>
     <script>
       /* Nav butonun içine hapsetmekiçin kullanılan js kodu*/
-       document.addEventListener("DOMContentLoaded", function () {
-      const mobileMenu = document.querySelector(".mobil-menu-container");
-      const openMobileBtn = document.querySelector(".nav-mobile-btn");
-      const closeMobileBtn = document.querySelector(".mobile-btn-close");
-      
-      mobileMenu.style.display = "none";
-      openMobileBtn.addEventListener("click", function () {
-          mobileMenu.style.display = "flex";
-      });
-      closeMobileBtn.addEventListener("click", function () {
-          mobileMenu.style.display = "none";
-      });
-  });
+      document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenu = document.querySelector('.mobile-menu-container');
+    const openMenuBtn = document.querySelector('.nav-mobile-btn');
+    const closeMenuBtn = document.querySelector('.mobile-btn-close');
+    
+    function openMobileMenu() {
+        mobileMenu.classList.add('is-open');
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeMobileMenu() {
+        mobileMenu.classList.remove('is-open');
+        document.body.style.overflow = '';
+    }
+    
+    openMenuBtn.addEventListener('click', openMobileMenu);
+    closeMenuBtn.addEventListener('click', closeMobileMenu);
+    
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && mobileMenu.classList.contains('is-open')) {
+            closeMobileMenu();
+        }
+    });
+});
   </script>
 
   <style>
